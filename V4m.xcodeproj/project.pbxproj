@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Vote4MihirAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Vote4MihirAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		272E5A8E121AE710006401FE /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E5A7D121AE710006401FE /* ASIAuthenticationDialog.m */; };
+		272E5A8F121AE710006401FE /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E5A80121AE710006401FE /* ASIDownloadCache.m */; };
+		272E5A90121AE710006401FE /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E5A82121AE710006401FE /* ASIFormDataRequest.m */; };
+		272E5A91121AE710006401FE /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E5A84121AE710006401FE /* ASIHTTPRequest.m */; };
+		272E5A92121AE710006401FE /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E5A88121AE710006401FE /* ASIInputStream.m */; };
+		272E5A93121AE710006401FE /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E5A8A121AE710006401FE /* ASINetworkQueue.m */; };
+		272E5A94121AE710006401FE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 272E5A8D121AE710006401FE /* Reachability.m */; };
+		272E5A98121AE726006401FE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 272E5A96121AE726006401FE /* MainWindow.xib */; };
+		272E5A99121AE726006401FE /* Vote4MihirViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 272E5A97121AE726006401FE /* Vote4MihirViewController.xib */; };
+		27501EDE121A8164008381DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27501EDD121A8164008381DA /* CFNetwork.framework */; };
+		27501EE0121A816A008381DA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27501EDF121A816A008381DA /* SystemConfiguration.framework */; };
+		27501EE2121A816D008381DA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27501EE1121A816D008381DA /* MobileCoreServices.framework */; };
+		27501EE4121A817C008381DA /* libz.1.2.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27501EE3121A817C008381DA /* libz.1.2.3.dylib */; };
+		27501FB8121A8885008381DA /* V4MVoter.m in Sources */ = {isa = PBXBuildFile; fileRef = 27501FB6121A8885008381DA /* V4MVoter.m */; };
+		27501FB9121A8885008381DA /* V4MVoter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27501FB7121A8885008381DA /* V4MVoter.xib */; };
+		27502025121AA2CD008381DA /* V4MCaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 27502024121AA2CD008381DA /* V4MCaster.m */; };
+		27545E8C121AC1D600A0D111 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 27545E8B121AC1D600A0D111 /* icon.png */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		28D7ACF80DDB3853001CB0EB /* Vote4MihirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Vote4MihirViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Vote4MihirAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vote4MihirAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Vote4MihirAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vote4MihirAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* V4m.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V4m.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		272E5A7C121AE710006401FE /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		272E5A7D121AE710006401FE /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
+		272E5A7E121AE710006401FE /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		272E5A7F121AE710006401FE /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		272E5A80121AE710006401FE /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
+		272E5A81121AE710006401FE /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		272E5A82121AE710006401FE /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
+		272E5A83121AE710006401FE /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		272E5A84121AE710006401FE /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
+		272E5A85121AE710006401FE /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		272E5A86121AE710006401FE /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		272E5A87121AE710006401FE /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		272E5A88121AE710006401FE /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
+		272E5A89121AE710006401FE /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		272E5A8A121AE710006401FE /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
+		272E5A8B121AE710006401FE /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		272E5A8C121AE710006401FE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		272E5A8D121AE710006401FE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		272E5A96121AE726006401FE /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Classes/MainWindow.xib; sourceTree = "<group>"; };
+		272E5A97121AE726006401FE /* Vote4MihirViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Vote4MihirViewController.xib; path = Classes/Vote4MihirViewController.xib; sourceTree = "<group>"; };
+		27501EDD121A8164008381DA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		27501EDF121A816A008381DA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		27501EE1121A816D008381DA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		27501EE3121A817C008381DA /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = usr/lib/libz.1.2.3.dylib; sourceTree = SDKROOT; };
+		27501FB5121A8885008381DA /* V4MVoter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V4MVoter.h; sourceTree = "<group>"; };
+		27501FB6121A8885008381DA /* V4MVoter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V4MVoter.m; sourceTree = "<group>"; };
+		27501FB7121A8885008381DA /* V4MVoter.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = V4MVoter.xib; path = Classes/V4MVoter.xib; sourceTree = "<group>"; };
+		27502023121AA2CD008381DA /* V4MCaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V4MCaster.h; sourceTree = "<group>"; };
+		27502024121AA2CD008381DA /* V4MCaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V4MCaster.m; sourceTree = "<group>"; };
+		27545E8B121AC1D600A0D111 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28D7ACF60DDB3853001CB0EB /* Vote4MihirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vote4MihirViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* Vote4MihirViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vote4MihirViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* V4m_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V4m_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* V4m-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "V4m-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				27501EDE121A8164008381DA /* CFNetwork.framework in Frameworks */,
+				27501EE0121A816A008381DA /* SystemConfiguration.framework in Frameworks */,
+				27501EE2121A816D008381DA /* MobileCoreServices.framework in Frameworks */,
+				27501EE4121A817C008381DA /* libz.1.2.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* Vote4MihirAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Vote4MihirAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* Vote4MihirViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* Vote4MihirViewController.m */,
+				27501FB5121A8885008381DA /* V4MVoter.h */,
+				27501FB6121A8885008381DA /* V4MVoter.m */,
+				27502023121AA2CD008381DA /* V4MCaster.h */,
+				27502024121AA2CD008381DA /* V4MCaster.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* V4m.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272E5A7B121AE710006401FE /* ASI */ = {
+			isa = PBXGroup;
+			children = (
+				272E5A7C121AE710006401FE /* ASIAuthenticationDialog.h */,
+				272E5A7D121AE710006401FE /* ASIAuthenticationDialog.m */,
+				272E5A7E121AE710006401FE /* ASICacheDelegate.h */,
+				272E5A7F121AE710006401FE /* ASIDownloadCache.h */,
+				272E5A80121AE710006401FE /* ASIDownloadCache.m */,
+				272E5A81121AE710006401FE /* ASIFormDataRequest.h */,
+				272E5A82121AE710006401FE /* ASIFormDataRequest.m */,
+				272E5A83121AE710006401FE /* ASIHTTPRequest.h */,
+				272E5A84121AE710006401FE /* ASIHTTPRequest.m */,
+				272E5A85121AE710006401FE /* ASIHTTPRequestConfig.h */,
+				272E5A86121AE710006401FE /* ASIHTTPRequestDelegate.h */,
+				272E5A87121AE710006401FE /* ASIInputStream.h */,
+				272E5A88121AE710006401FE /* ASIInputStream.m */,
+				272E5A89121AE710006401FE /* ASINetworkQueue.h */,
+				272E5A8A121AE710006401FE /* ASINetworkQueue.m */,
+				272E5A8B121AE710006401FE /* ASIProgressDelegate.h */,
+				272E5A8C121AE710006401FE /* Reachability.h */,
+				272E5A8D121AE710006401FE /* Reachability.m */,
+			);
+			path = ASI;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				27501EDD121A8164008381DA /* CFNetwork.framework */,
+				27501EDF121A816A008381DA /* SystemConfiguration.framework */,
+				27501EE1121A816D008381DA /* MobileCoreServices.framework */,
+				27501EE3121A817C008381DA /* libz.1.2.3.dylib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				272E5A7B121AE710006401FE /* ASI */,
+				32CA4F630368D1EE00C91783 /* V4m_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27545E8B121AC1D600A0D111 /* icon.png */,
+				27501FB7121A8885008381DA /* V4MVoter.xib */,
+				272E5A96121AE726006401FE /* MainWindow.xib */,
+				272E5A97121AE726006401FE /* Vote4MihirViewController.xib */,
+				8D1107310486CEB800E47090 /* V4m-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* V4m */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "V4m" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = V4m;
+			productName = Vote4Mihir;
+			productReference = 1D6058910D05DD3D006BFB54 /* V4m.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "V4m" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* V4m */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27501FB9121A8885008381DA /* V4MVoter.xib in Resources */,
+				27545E8C121AC1D600A0D111 /* icon.png in Resources */,
+				272E5A98121AE726006401FE /* MainWindow.xib in Resources */,
+				272E5A99121AE726006401FE /* Vote4MihirViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Vote4MihirAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* Vote4MihirViewController.m in Sources */,
+				27501FB8121A8885008381DA /* V4MVoter.m in Sources */,
+				27502025121AA2CD008381DA /* V4MCaster.m in Sources */,
+				272E5A8E121AE710006401FE /* ASIAuthenticationDialog.m in Sources */,
+				272E5A8F121AE710006401FE /* ASIDownloadCache.m in Sources */,
+				272E5A90121AE710006401FE /* ASIFormDataRequest.m in Sources */,
+				272E5A91121AE710006401FE /* ASIHTTPRequest.m in Sources */,
+				272E5A92121AE710006401FE /* ASIInputStream.m in Sources */,
+				272E5A93121AE710006401FE /* ASINetworkQueue.m in Sources */,
+				272E5A94121AE710006401FE /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = V4m_Prefix.pch;
+				INFOPLIST_FILE = "V4m-Info.plist";
+				PRODUCT_NAME = V4m;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = V4m_Prefix.pch;
+				INFOPLIST_FILE = "V4m-Info.plist";
+				PRODUCT_NAME = V4m;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vishnu Prem (BL9VSL6MC2)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5181A51A-E9FA-4B53-B1C0-614F187D76F2";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vishnu Prem (BL9VSL6MC2)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5181A51A-E9FA-4B53-B1C0-614F187D76F2";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "V4m" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "V4m" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
