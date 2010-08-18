@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -272,8 +274,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>7</integer>
-									<integer>1</integer>
+									<integer>16</integer>
+									<integer>11</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -308,8 +310,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>2753B89B121B78B600EBD5CA</string>
+										<string>273AD444121BF8AC00EBB4D0</string>
 										<key>history</key>
 										<array>
 											<string>27501F5D121A8582008381DA</string>
@@ -338,7 +338,7 @@
 											<string>27545E91121AC1E600A0D111</string>
 											<string>272E5AA5121AE73D006401FE</string>
 											<string>2722037C121B742700BBC268</string>
-											<string>27220395121B767E00BBC268</string>
+											<string>2753B89B121B78B600EBD5CA</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -396,9 +396,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>2753B88F121B76B600EBD5CA</string>
+				<string>273AD441121BF8AC00EBB4D0</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>2753B890121B76B600EBD5CA</string>
+				<string>273AD442121BF8AC00EBB4D0</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -536,12 +536,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>2753B89C121B78B600EBD5CA</string>
-		<string>2753B89D121B78B600EBD5CA</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>27501EBC121A80CC008381DA</string>
-		<string>/Users/vishnu/Dev/V4M/V4M/V4m.xcodeproj</string>
+		<string>/Users/vishnu/Dev/V4M/V4m.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>82 59 1185 819 0 0 1440 878 </string>
@@ -582,8 +578,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -623,7 +617,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>27501EBC121A80CC008381DA</string>
-				<string>2753B887121B769F00EBD5CA</string>
+				<string>273AD443121BF8AC00EBB4D0</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
