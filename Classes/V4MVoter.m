@@ -54,7 +54,7 @@
 	}
 	else if([alertView.title isEqualToString:@"It's either done or it's not"]){
 		if (buttonIndex==1) {
-			[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:+65-90091516"]];
+			[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:+65-91234567"]];
 		}
 	}
 }
